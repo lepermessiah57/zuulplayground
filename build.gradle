@@ -29,6 +29,7 @@ ext {
 dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-zuul')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('com.squareup.okhttp3:okhttp:3.7.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 

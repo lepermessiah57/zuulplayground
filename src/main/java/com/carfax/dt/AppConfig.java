@@ -18,13 +18,4 @@ public class AppConfig {
         return new RouteBarFilter();
     }
 
-    @Bean
-    RouteFooFilter routeFooFilter(){
-        return new RouteFooFilter();
-    }
-
-    @Bean
-    BarFallback barFallback(){
-        return new BarFallback();
-    }
 }
