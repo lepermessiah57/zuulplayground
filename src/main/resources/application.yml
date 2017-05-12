@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    realVinzilla:
+      path: /foobar/**
+      url: http://localhost:8080/foo
+  retryable: false
+
+ribbon:
+  eureka:
+    enabled: false
